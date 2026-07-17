@@ -2,16 +2,21 @@
 
 Overview
 
-The Automated Semester CGPA Planner is a C++ console-based application that helps students manage their academic performance. It allows users to add semester-wise course details, calculate Semester GPA and Overall CGPA, predict the GPA required to achieve a target CGPA, and display complete academic records.
+The Automated Semester CGPA Planner is a C++ console-based application that helps students manage and track their academic performance. The system allows users to add semester-wise course information, calculate Semester GPA, compute Overall CGPA, predict the GPA required to achieve a target CGPA, and display a complete academic record.
+
+---
 
 Features
 
-- Add multiple semesters and course details.
-- Calculate Semester GPA automatically.
-- Calculate Overall CGPA.
+- Add multiple semesters.
+- Store course details (Course Name, Credit Hours, and Grade Points).
+- Automatically calculate Semester GPA.
+- Calculate Overall CGPA based on completed semesters.
 - Predict the minimum GPA required to achieve a target CGPA.
 - Display complete semester-wise academic records.
 - Simple and user-friendly menu-driven interface.
+
+---
 
 Technologies Used
 
@@ -23,31 +28,48 @@ Technologies Used
 - iostream
 - iomanip
 
+---
+
+Project Structure
+
+Automated-Semester-CGPA-Planner/
+│── main.cpp
+└── README.md
+
+---
+
 How to Run
 
 1. Download or clone this repository.
-2. Open "main.cpp" in any C++ IDE (Code::Blocks, Visual Studio, Dev-C++, or VS Code).
-3. Compile and run the program.
-4. Use the menu options to add semester data, calculate GPA/CGPA, and predict future GPA requirements.
+2. Open the project in any C++ IDE such as Code::Blocks, Dev-C++, Visual Studio, or VS Code.
+3. Compile and run the "main.cpp" file.
+4. Use the menu to manage semesters and calculate GPA/CGPA.
 
-Project Functions
+---
 
-- Add Semester: Stores course information and calculates Semester GPA.
-- View Semester GPAs: Displays GPA of each semester.
-- View Overall CGPA: Calculates and displays the cumulative CGPA.
-- Predict Required GPA: Calculates the GPA needed in remaining credits to reach a desired CGPA.
-- Display Complete Record: Shows all semesters, courses, GPAs, and overall CGPA.
+Menu Options
+
+1. Add Semester
+2. View Semester GPAs
+3. View Overall CGPA
+4. Predict Required GPA
+5. Display Complete Record
+6. Exit
+
+---
 
 Concepts Implemented
 
-- Object-Oriented Programming using Structures
-- Dynamic Data Storage using Vectors
-- Modular Programming with Functions
-- GPA & CGPA Calculation Algorithms
-- User Input Validation
+- Structures
+- Vectors
+- Modular Programming
+- GPA & CGPA Calculation
+- User Input Handling
 - Menu-Driven Programming
 
-Future Enhancements
+---
+
+Future Improvements
 
 - File handling for permanent data storage.
 - Grade letter to grade point conversion.
@@ -55,6 +77,9 @@ Future Enhancements
 - Graphical User Interface (GUI).
 - Export reports to PDF or Excel.
 
-Author
+---
 
-Developed as a C++ academic project for learning programming concepts and academic performance management.
+License
+
+This project is developed for educational and learning purposes.
+
