@@ -57,5 +57,4 @@ Future Enhancements
 
 Author
 
-Developed as a C++ academic project for learning programming concepts and academic performance management.# Automated-Semester-CGPA-Planner
-A C++ console-based GPA &amp; CGPA planner that calculates semester GPA, overall CGPA, predicts the required GPA to achieve a target CGPA, and maintains semester-wise academic records.
+Developed as a C++ academic project for learning programming concepts and academic performance management.
