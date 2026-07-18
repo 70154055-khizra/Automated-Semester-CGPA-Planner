@@ -80,7 +80,7 @@ Automated-Semester-CGPA-Planner/
 
 ---
 
-## License
+## Author
 
-This project is for educational purposes only.
+Khizra Khan
 
